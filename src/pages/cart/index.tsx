@@ -171,12 +171,12 @@ const Cart: React.FC = () => {
                 <input
                   {...register('firstName')}
                   placeholder="First name"
-                  defaultValue="Pedro"
+                  defaultValue="Lalo"
                 />
                 <input
                   {...register('lastName')}
                   placeholder="Last name"
-                  defaultValue="Cruz"
+                  defaultValue="Landa"
                 />
                 <input
                   {...register('email')}
@@ -185,13 +185,13 @@ const Cart: React.FC = () => {
                 />
                 <input
                   {...register('areaCode')}
-                  placeholder="21"
-                  defaultValue="21"
+                  placeholder="55"
+                  defaultValue="55"
                 />
                 <input
                   {...register('telephone')}
                   placeholder="99999-9999"
-                  defaultValue="999999999"
+                  defaultValue="98529-8743"
                 />
               </div>
               <span className="divider" />
@@ -200,17 +200,17 @@ const Cart: React.FC = () => {
                 <input
                   {...register('street')}
                   placeholder="Nome da rua"
-                  defaultValue="Rua"
+                  defaultValue="Insurgentes Sur"
                 />
                 <input
                   {...register('number')}
                   placeholder="Número da casa"
-                  defaultValue="21"
+                  defaultValue="1602"
                 />
                 <input
                   {...register('postalCode')}
                   placeholder="Código Postal"
-                  defaultValue="24220000"
+                  defaultValue="78134-190"
                 />
               </div>
               <span className="divider" />
